@@ -1,0 +1,1706 @@
+{
+  "useInternalEmbeddings": false,
+  "initializeWithPrecomputedPositions": false,
+  "weightAttribute": "none",
+  "centroid": [
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "id": "Thing",
+  "children": [
+    {
+      "id": "Activity",
+      "children": [
+        {
+          "id": "Game",
+          "children": [
+            {
+              "id": "Board Game"
+            },
+            {
+              "id": "Card Game"
+            }
+          ]
+        },
+        {
+          "id": "Sales"
+        },
+        {
+          "id": "Sport",
+          "children": [
+            {
+              "id": "Athletics"
+            },
+            {
+              "id": "Boxing"
+            },
+            {
+              "id": "Horse Riding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Agent",
+      "children": [
+        {
+          "id": "Deity"
+        },
+        {
+          "id": "Employer"
+        },
+        {
+          "id": "Family",
+          "children": [
+            {
+              "id": "Noble Family"
+            }
+          ]
+        },
+        {
+          "id": "Organisation",
+          "children": [
+            {
+              "id": "Broadcaster",
+              "children": [
+                {
+                  "id": "Broadcast Network"
+                },
+                {
+                  "id": "Radio Station"
+                },
+                {
+                  "id": "Television Station"
+                }
+              ]
+            },
+            {
+              "id": "Company",
+              "children": [
+                {
+                  "id": "Airline"
+                },
+                {
+                  "id": "Bank"
+                },
+                {
+                  "id": "Brewery"
+                },
+                {
+                  "id": "Bus Company"
+                },
+                {
+                  "id": "Caterer"
+                },
+                {
+                  "id": "Law Firm"
+                },
+                {
+                  "id": "Publisher"
+                },
+                {
+                  "id": "Record Label"
+                },
+                {
+                  "id": "Winery"
+                }
+              ]
+            },
+            {
+              "id": "Educational Institution",
+              "children": [
+                {
+                  "id": "College"
+                },
+                {
+                  "id": "School"
+                },
+                {
+                  "id": "University"
+                }
+              ]
+            },
+            {
+              "id": "Government Agency"
+            },
+            {
+              "id": "Group",
+              "children": [
+                {
+                  "id": "Band"
+                },
+                {
+                  "id": "Comedy Group"
+                }
+              ]
+            },
+            {
+              "id": "Legislature"
+            },
+            {
+              "id": "Military Unit"
+            },
+            {
+              "id": "Parliament"
+            },
+            {
+              "id": "Political Party"
+            },
+            {
+              "id": "Public Transit System"
+            },
+            {
+              "id": "Religious Organisation"
+            },
+            {
+              "id": "Sports League",
+              "children": [
+                {
+                  "id": "Baseball League"
+                },
+                {
+                  "id": "Basketball League"
+                },
+                {
+                  "id": "Bowling League"
+                },
+                {
+                  "id": "Rugby League"
+                },
+                {
+                  "id": "Soccer League"
+                }
+              ]
+            },
+            {
+              "id": "Sports Team",
+              "children": [
+                {
+                  "id": "American Football Team"
+                },
+                {
+                  "id": "Baseball Team"
+                },
+                {
+                  "id": "Basketball Team"
+                },
+                {
+                  "id": "Formula One Team"
+                },
+                {
+                  "id": "Hockey Team"
+                },
+                {
+                  "id": "Rugby Club"
+                },
+                {
+                  "id": "Soccer Club"
+                }
+              ]
+            },
+            {
+              "id": "Term Of Office"
+            },
+            {
+              "id": "Trade Union"
+            }
+          ]
+        },
+        {
+          "id": "Person",
+          "children": [
+            {
+              "id": "Ambassador"
+            },
+            {
+              "id": "Archeologist"
+            },
+            {
+              "id": "Architect"
+            },
+            {
+              "id": "Aristocrat"
+            },
+            {
+              "id": "Artist",
+              "children": [
+                {
+                  "id": "Actor",
+                  "children": [
+                    {
+                      "id": "Adult Actor"
+                    },
+                    {
+                      "id": "Voice Actor"
+                    }
+                  ]
+                },
+                {
+                  "id": "Comedian"
+                },
+                {
+                  "id": "Comics Creator"
+                },
+                {
+                  "id": "Dancer"
+                },
+                {
+                  "id": "Fashion Designer"
+                },
+                {
+                  "id": "Humorist"
+                },
+                {
+                  "id": "Musical Artist",
+                  "children": [
+                    {
+                      "id": "Instrumentalist",
+                      "children": [
+                        {
+                          "id": "Guitarist"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Music Director"
+                    },
+                    {
+                      "id": "Singer"
+                    }
+                  ]
+                },
+                {
+                  "id": "Painter"
+                },
+                {
+                  "id": "Photographer"
+                },
+                {
+                  "id": "Sculptor"
+                },
+                {
+                  "id": "Writer",
+                  "children": [
+                    {
+                      "id": "PlayWright"
+                    },
+                    {
+                      "id": "Poet"
+                    },
+                    {
+                      "id": "ScreenWriter"
+                    },
+                    {
+                      "id": "SongWriter"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Astronaut"
+            },
+            {
+              "id": "Athlete",
+              "children": [
+                {
+                  "id": "Archer"
+                },
+                {
+                  "id": "Badminton Player"
+                },
+                {
+                  "id": "Baseball Player"
+                },
+                {
+                  "id": "Basketball Player"
+                },
+                {
+                  "id": "Bodybuilder"
+                },
+                {
+                  "id": "Boxer"
+                },
+                {
+                  "id": "Canoeist"
+                },
+                {
+                  "id": "Chess Player"
+                },
+                {
+                  "id": "Cricketer"
+                },
+                {
+                  "id": "Cyclist"
+                },
+                {
+                  "id": "Fencer"
+                },
+                {
+                  "id": "Golf Player"
+                },
+                {
+                  "id": "Gymnast"
+                },
+                {
+                  "id": "Handball Player"
+                },
+                {
+                  "id": "Horse Rider"
+                },
+                {
+                  "id": "Jockey"
+                },
+                {
+                  "id": "Lacrosse Player"
+                },
+                {
+                  "id": "Martial Artist"
+                },
+                {
+                  "id": "Motorsport",
+                  "children": [
+                    {
+                      "id": "Racing Driver",
+                      "children": [
+                        {
+                          "id": "Formula One Racer"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Poker Player"
+                },
+                {
+                  "id": "Rower"
+                },
+                {
+                  "id": "Rugby Player"
+                },
+                {
+                  "id": "Soccer Player"
+                },
+                {
+                  "id": "Squash Player"
+                },
+                {
+                  "id": "Surfer"
+                },
+                {
+                  "id": "Swimmer"
+                },
+                {
+                  "id": "Team Member"
+                },
+                {
+                  "id": "Tennis Player"
+                },
+                {
+                  "id": "Volleyball Player"
+                },
+                {
+                  "id": "Water Polo Player"
+                },
+                {
+                  "id": "Wrestler",
+                  "children": [
+                    {
+                      "id": "Sumo Wrestler"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Beauty Queen"
+            },
+            {
+              "id": "Bullfighter"
+            },
+            {
+              "id": "Business Person"
+            },
+            {
+              "id": "Celebrity"
+            },
+            {
+              "id": "Chef"
+            },
+            {
+              "id": "Cleric",
+              "children": [
+                {
+                  "id": "Cardinal"
+                },
+                {
+                  "id": "Christian Bishop"
+                },
+                {
+                  "id": "Pope"
+                },
+                {
+                  "id": "Priest"
+                },
+                {
+                  "id": "Saint"
+                },
+                {
+                  "id": "Vicar"
+                }
+              ]
+            },
+            {
+              "id": "Coach"
+            },
+            {
+              "id": "Criminal",
+              "children": [
+                {
+                  "id": "Murderer"
+                },
+                {
+                  "id": "Serial Killer"
+                }
+              ]
+            },
+            {
+              "id": "Economist"
+            },
+            {
+              "id": "Egyptologist"
+            },
+            {
+              "id": "Engineer"
+            },
+            {
+              "id": "Farmer"
+            },
+            {
+              "id": "Fictional Character",
+              "children": [
+                {
+                  "id": "Comics Character",
+                  "children": [
+                    {
+                      "id": "Animanga Character"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Historian"
+            },
+            {
+              "id": "Journalist"
+            },
+            {
+              "id": "Judge"
+            },
+            {
+              "id": "Lawyer"
+            },
+            {
+              "id": "Linguist"
+            },
+            {
+              "id": "Military Person"
+            },
+            {
+              "id": "Model"
+            },
+            {
+              "id": "Monarch"
+            },
+            {
+              "id": "Mythological Figure"
+            },
+            {
+              "id": "Noble"
+            },
+            {
+              "id": "Office Holder"
+            },
+            {
+              "id": "Orphan"
+            },
+            {
+              "id": "Philosopher"
+            },
+            {
+              "id": "Politician",
+              "children": [
+                {
+                  "id": "Chancellor"
+                },
+                {
+                  "id": "Congressman"
+                },
+                {
+                  "id": "Deputy"
+                },
+                {
+                  "id": "Governor"
+                },
+                {
+                  "id": "Lieutenant"
+                },
+                {
+                  "id": "Member Of Parliament"
+                },
+                {
+                  "id": "President"
+                },
+                {
+                  "id": "Prime Minister"
+                },
+                {
+                  "id": "Senator"
+                },
+                {
+                  "id": "Vice President"
+                },
+                {
+                  "id": "Vice Prime Minister"
+                }
+              ]
+            },
+            {
+              "id": "Presenter"
+            },
+            {
+              "id": "Producer"
+            },
+            {
+              "id": "Psychologist"
+            },
+            {
+              "id": "Referee"
+            },
+            {
+              "id": "Religious"
+            },
+            {
+              "id": "Roman Emperor"
+            },
+            {
+              "id": "Royalty"
+            },
+            {
+              "id": "Scientist",
+              "children": [
+                {
+                  "id": "Biologist"
+                },
+                {
+                  "id": "Entomologist"
+                },
+                {
+                  "id": "Medician"
+                },
+                {
+                  "id": "Professor"
+                }
+              ]
+            },
+            {
+              "id": "Television Personality",
+              "children": [
+                {
+                  "id": "Host"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Altitude"
+    },
+    {
+      "id": "Anatomical Structure",
+      "children": [
+        {
+          "id": "Artery"
+        },
+        {
+          "id": "Bone"
+        },
+        {
+          "id": "Brain"
+        },
+        {
+          "id": "Embryology"
+        },
+        {
+          "id": "Ligament"
+        },
+        {
+          "id": "Lymph"
+        },
+        {
+          "id": "Muscle"
+        },
+        {
+          "id": "Nerve"
+        },
+        {
+          "id": "Vein"
+        }
+      ]
+    },
+    {
+      "id": "Area"
+    },
+    {
+      "id": "Award",
+      "children": [
+        {
+          "id": "Decoration"
+        },
+        {
+          "id": "Nobel Prize"
+        }
+      ]
+    },
+    {
+      "id": "Biomolecule",
+      "children": [
+        {
+          "id": "Enzyme"
+        },
+        {
+          "id": "Gene",
+          "children": [
+            {
+              "id": "Human Gene"
+            }
+          ]
+        },
+        {
+          "id": "Lipid"
+        },
+        {
+          "id": "Polysaccharide"
+        },
+        {
+          "id": "Protein"
+        }
+      ]
+    },
+    {
+      "id": "Blazon"
+    },
+    {
+      "id": "Celestial Body",
+      "children": [
+        {
+          "id": "Asteroid"
+        },
+        {
+          "id": "Constellation"
+        },
+        {
+          "id": "Galaxy"
+        },
+        {
+          "id": "Planet"
+        },
+        {
+          "id": "Satellite",
+          "children": [
+            {
+              "id": "Artificial Satellite"
+            }
+          ]
+        },
+        {
+          "id": "Star",
+          "children": [
+            {
+              "id": "Brown Dwarf"
+            }
+          ]
+        },
+        {
+          "id": "Swarm"
+        }
+      ]
+    },
+    {
+      "id": "Chemical_Substance",
+      "children": [
+        {
+          "id": "Chemical_Compound"
+        },
+        {
+          "id": "Chemical_Element"
+        },
+        {
+          "id": "Mineral"
+        }
+      ]
+    },
+    {
+      "id": "Colour"
+    },
+    {
+      "id": "Currency"
+    },
+    {
+      "id": "Demographics"
+    },
+    {
+      "id": "Depth"
+    },
+    {
+      "id": "Device",
+      "children": [
+        {
+          "id": "Camera",
+          "children": [
+            {
+              "id": "Digital Camera"
+            }
+          ]
+        },
+        {
+          "id": "Engine",
+          "children": [
+            {
+              "id": "Automobile Engine"
+            },
+            {
+              "id": "Rocket Engine"
+            }
+          ]
+        },
+        {
+          "id": "Information Appliance"
+        },
+        {
+          "id": "Instrument",
+          "children": [
+            {
+              "id": "Guitar"
+            },
+            {
+              "id": "Organ"
+            }
+          ]
+        },
+        {
+          "id": "Mobile Phone"
+        },
+        {
+          "id": "Weapon"
+        }
+      ]
+    },
+    {
+      "id": "Diploma"
+    },
+    {
+      "id": "Drug"
+    },
+    {
+      "id": "Ethnic Group"
+    },
+    {
+      "id": "Event",
+      "children": [
+        {
+          "id": "Competition",
+          "children": [
+            {
+              "id": "Contest"
+            }
+          ]
+        },
+        {
+          "id": "Life Cycle",
+          "children": [
+            {
+              "id": "Birth"
+            },
+            {
+              "id": "Death"
+            },
+            {
+              "id": "Divorce"
+            },
+            {
+              "id": "Marriage"
+            }
+          ]
+        },
+        {
+          "id": "Social Event",
+          "children": [
+            {
+              "id": "Attack"
+            },
+            {
+              "id": "Convention"
+            },
+            {
+              "id": "Election"
+            },
+            {
+              "id": "Film Festival"
+            },
+            {
+              "id": "Meeting"
+            },
+            {
+              "id": "Military Conflict"
+            },
+            {
+              "id": "Music Festival"
+            },
+            {
+              "id": "Rebellion"
+            },
+            {
+              "id": "Space Mission"
+            },
+            {
+              "id": "Sports Event",
+              "children": [
+                {
+                  "id": "Football Match"
+                },
+                {
+                  "id": "Grand Prix"
+                },
+                {
+                  "id": "Olympics",
+                  "children": [
+                    {
+                      "id": "Olympic Event"
+                    }
+                  ]
+                },
+                {
+                  "id": "Race",
+                  "children": [
+                    {
+                      "id": "Cycling Race"
+                    },
+                    {
+                      "id": "Horse Race"
+                    },
+                    {
+                      "id": "Motor Race"
+                    }
+                  ]
+                },
+                {
+                  "id": "Tournament",
+                  "children": [
+                    {
+                      "id": "Golf Tournament"
+                    },
+                    {
+                      "id": "Tennis Tournament"
+                    }
+                  ]
+                },
+                {
+                  "id": "Wrestling Event"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Flag"
+    },
+    {
+      "id": "Food",
+      "children": [
+        {
+          "id": "Beverage",
+          "children": [
+            {
+              "id": "Beer"
+            },
+            {
+              "id": "Vodka"
+            },
+            {
+              "id": "Wine"
+            }
+          ]
+        },
+        {
+          "id": "Cheese"
+        }
+      ]
+    },
+    {
+      "id": "Gross Domestic Product"
+    },
+    {
+      "id": "Holiday"
+    },
+    {
+      "id": "Imdb"
+    },
+    {
+      "id": "Language"
+    },
+    {
+      "id": "List"
+    },
+    {
+      "id": "Mayor"
+    },
+    {
+      "id": "Media"
+    },
+    {
+      "id": "Medicine",
+      "children": [
+        {
+          "id": "Disease"
+        }
+      ]
+    },
+    {
+      "id": "id",
+      "children": [
+        {
+          "id": "Given Name"
+        },
+        {
+          "id": "Surname"
+        }
+      ]
+    },
+    {
+      "id": "Penalty Shoot Out"
+    },
+    {
+      "id": "Place",
+      "children": [
+        {
+          "id": "Architectural Structure",
+          "children": [
+            {
+              "id": "Amusement Park Attraction",
+              "children": [
+                {
+                  "id": "Roller Coaster"
+                }
+              ]
+            },
+            {
+              "id": "Arena"
+            },
+            {
+              "id": "Building",
+              "children": [
+                {
+                  "id": "Casino"
+                },
+                {
+                  "id": "Castle"
+                },
+                {
+                  "id": "Factory"
+                },
+                {
+                  "id": "Historic Building"
+                },
+                {
+                  "id": "Hospital"
+                },
+                {
+                  "id": "Hotel"
+                },
+                {
+                  "id": "Library"
+                },
+                {
+                  "id": "Museum"
+                },
+                {
+                  "id": "Prison"
+                },
+                {
+                  "id": "Religious Building",
+                  "children": [
+                    {
+                      "id": "Abbey"
+                    },
+                    {
+                      "id": "Church"
+                    },
+                    {
+                      "id": "Monastery"
+                    },
+                    {
+                      "id": "Mosque"
+                    },
+                    {
+                      "id": "Synagogue"
+                    },
+                    {
+                      "id": "Temple"
+                    }
+                  ]
+                },
+                {
+                  "id": "Restaurant"
+                },
+                {
+                  "id": "Shopping Mall"
+                },
+                {
+                  "id": "Skyscraper"
+                }
+              ]
+            },
+            {
+              "id": "Gate"
+            },
+            {
+              "id": "Infrastructure",
+              "children": [
+                {
+                  "id": "Airport"
+                },
+                {
+                  "id": "Dam"
+                },
+                {
+                  "id": "Launch Pad"
+                },
+                {
+                  "id": "Lock"
+                },
+                {
+                  "id": "Port"
+                },
+                {
+                  "id": "Power Station",
+                  "children": [
+                    {
+                      "id": "Nuclear Power Station"
+                    }
+                  ]
+                },
+                {
+                  "id": "Rest Area"
+                },
+                {
+                  "id": "transportation path system",
+                  "children": [
+                    {
+                      "id": "Bridge"
+                    },
+                    {
+                      "id": "Railway"
+                    },
+                    {
+                      "id": "Railroad Tunnel"
+                    },
+                    {
+                      "id": "Road"
+                    },
+                    {
+                      "id": "Road Junction"
+                    },
+                    {
+                      "id": "Tunnel"
+                    },
+                    {
+                      "id": "Waterway"
+                    }
+                  ]
+                },
+                {
+                  "id": "Station",
+                  "children": [
+                    {
+                      "id": "Filling Station"
+                    },
+                    {
+                      "id": "Metro Station"
+                    },
+                    {
+                      "id": "Railway Station"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Military Structure"
+            },
+            {
+              "id": "Mill",
+              "children": [
+                {
+                  "id": "Treadmill"
+                },
+                {
+                  "id": "Watermill"
+                },
+                {
+                  "id": "Windmill"
+                }
+              ]
+            },
+            {
+              "id": "Pyramid"
+            },
+            {
+              "id": "Shrine"
+            },
+            {
+              "id": "Square"
+            },
+            {
+              "id": "Tower",
+              "children": [
+                {
+                  "id": "Lighthouse"
+                },
+                {
+                  "id": "Water Tower"
+                }
+              ]
+            },
+            {
+              "id": "Tunnel"
+            },
+            {
+              "id": "Venue",
+              "children": [
+                {
+                  "id": "Theatre"
+                }
+              ]
+            },
+            {
+              "id": "Zoo"
+            }
+          ]
+        },
+        {
+          "id": "Cemetery"
+        },
+        {
+          "id": "Community"
+        },
+        {
+          "id": "Concentration Camp"
+        },
+        {
+          "id": "Country Seat"
+        },
+        {
+          "id": "Garden"
+        },
+        {
+          "id": "Historic Place"
+        },
+        {
+          "id": "Mine",
+          "children": [
+            {
+              "id": "Coal Pit"
+            }
+          ]
+        },
+        {
+          "id": "Monument",
+          "children": [
+            {
+              "id": "Memorial"
+            }
+          ]
+        },
+        {
+          "id": "geographic area",
+          "children": [
+            {
+              "id": "Archipelago"
+            },
+            {
+              "id": "Beach"
+            },
+            {
+              "id": "Body Of Water",
+              "children": [
+                {
+                  "id": "Lake"
+                },
+                {
+                  "id": "Ocean"
+                },
+                {
+                  "id": "Sea"
+                },
+                {
+                  "id": "Stream",
+                  "children": [
+                    {
+                      "id": "Canal"
+                    },
+                    {
+                      "id": "River"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Cave"
+            },
+            {
+              "id": "Crater",
+              "children": [
+                {
+                  "id": "Lunar Crater"
+                }
+              ]
+            },
+            {
+              "id": "Desert"
+            },
+            {
+              "id": "Glacier"
+            },
+            {
+              "id": "Hot Spring"
+            },
+            {
+              "id": "Mountain"
+            },
+            {
+              "id": "Mountain Pass"
+            },
+            {
+              "id": "Mountain Range"
+            },
+            {
+              "id": "Valley"
+            },
+            {
+              "id": "Volcano"
+            }
+          ]
+        },
+        {
+          "id": "Park"
+        },
+        {
+          "id": "organizational",
+          "children": [
+            {
+              "id": "Agglomeration"
+            },
+            {
+              "id": "Continent"
+            },
+            {
+              "id": "Country"
+            },
+            {
+              "id": "Gated Community"
+            },
+            {
+              "id": "Intercommunality"
+            },
+            {
+              "id": "Island",
+              "children": [
+                {
+                  "id": "Atoll"
+                }
+              ]
+            },
+            {
+              "id": "Locality"
+            },
+            {
+              "id": "Region",
+              "children": [
+                {
+                  "id": "Administrative Region",
+                  "children": [
+                    {
+                      "id": "Arrondissement"
+                    },
+                    {
+                      "id": "Department"
+                    },
+                    {
+                      "id": "District"
+                    },
+                    {
+                      "id": "Micro Region"
+                    },
+                    {
+                      "id": "Municipality"
+                    },
+                    {
+                      "id": "Prefecture"
+                    },
+                    {
+                      "id": "Province"
+                    },
+                    {
+                      "id": "Regency"
+                    }
+                  ]
+                },
+                {
+                  "id": "Natural Region"
+                }
+              ]
+            },
+            {
+              "id": "Settlement",
+              "children": [
+                {
+                  "id": "City",
+                  "children": [
+                    {
+                      "id": "Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "City District"
+                },
+                {
+                  "id": "Town"
+                },
+                {
+                  "id": "Village"
+                }
+              ]
+            },
+            {
+              "id": "State"
+            },
+            {
+              "id": "Street"
+            },
+            {
+              "id": "Territory"
+            }
+          ]
+        },
+        {
+          "id": "Protected Area"
+        },
+        {
+          "id": "Ski Area"
+        },
+        {
+          "id": "Ski Resort"
+        },
+        {
+          "id": "Wine Region"
+        },
+        {
+          "id": "World Heritage Site"
+        }
+      ]
+    },
+    {
+      "id": "Polyhedron"
+    },
+    {
+      "id": "Population"
+    },
+    {
+      "id": "Public Service"
+    },
+    {
+      "id": "Species",
+      "children": [
+        {
+          "id": "Archaea"
+        },
+        {
+          "id": "Bacteria"
+        },
+        {
+          "id": "Eukaryote",
+          "children": [
+            {
+              "id": "Animal",
+              "children": [
+                {
+                  "id": "Amphibian"
+                },
+                {
+                  "id": "Arachnid"
+                },
+                {
+                  "id": "Bird"
+                },
+                {
+                  "id": "Crustacean"
+                },
+                {
+                  "id": "Fish"
+                },
+                {
+                  "id": "Insect"
+                },
+                {
+                  "id": "Mammal",
+                  "children": [
+                    {
+                      "id": "Dog"
+                    },
+                    {
+                      "id": "Race Horse"
+                    }
+                  ]
+                },
+                {
+                  "id": "Mollusca"
+                },
+                {
+                  "id": "Reptile"
+                }
+              ]
+            },
+            {
+              "id": "Fungus"
+            },
+            {
+              "id": "Plant",
+              "children": [
+                {
+                  "id": "Club Moss"
+                },
+                {
+                  "id": "Conifer"
+                },
+                {
+                  "id": "Cultivated Variety"
+                },
+                {
+                  "id": "Cycad"
+                },
+                {
+                  "id": "Fern"
+                },
+                {
+                  "id": "Flowering Plant",
+                  "children": [
+                    {
+                      "id": "Grape"
+                    }
+                  ]
+                },
+                {
+                  "id": "Ginkgo"
+                },
+                {
+                  "id": "Gnetophytes"
+                },
+                {
+                  "id": "Green Alga"
+                },
+                {
+                  "id": "Moss"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Statistic"
+    },
+    {
+      "id": "Time Period",
+      "children": [
+        {
+          "id": "Historical Period"
+        },
+        {
+          "id": "Prehistorical"
+        },
+        {
+          "id": "Protohistorical"
+        },
+        {
+          "id": "Year"
+        }
+      ]
+    },
+    {
+      "id": "Work",
+      "children": [
+        {
+          "id": "Artwork",
+          "children": [
+            {
+              "id": "Painting"
+            },
+            {
+              "id": "Sculpture"
+            }
+          ]
+        },
+        {
+          "id": "Cartoon",
+          "children": [
+            {
+              "id": "Anime"
+            },
+            {
+              "id": "Hollywood Cartoon"
+            }
+          ]
+        },
+        {
+          "id": "Database",
+          "children": [
+            {
+              "id": "Biological Database"
+            }
+          ]
+        },
+        {
+          "id": "Document",
+          "children": [
+            {
+              "id": "File"
+            },
+            {
+              "id": "Image",
+              "children": [
+                {
+                  "id": "Still Image"
+                }
+              ]
+            },
+            {
+              "id": "Sound"
+            }
+          ]
+        },
+        {
+          "id": "Film"
+        },
+        {
+          "id": "Musical"
+        },
+        {
+          "id": "Radio Program"
+        },
+        {
+          "id": "Software",
+          "children": [
+            {
+              "id": "Programming Language"
+            },
+            {
+              "id": "Video Game"
+            }
+          ]
+        },
+        {
+          "id": "Television Episode"
+        },
+        {
+          "id": "Television Season"
+        },
+        {
+          "id": "Television Show"
+        },
+        {
+          "id": "Website"
+        },
+        {
+          "id": "Written Work",
+          "children": [
+            {
+              "id": "Annotation",
+              "children": [
+                {
+                  "id": "Reference"
+                }
+              ]
+            },
+            {
+              "id": "Article"
+            },
+            {
+              "id": "Book",
+              "children": [
+                {
+                  "id": "Novel",
+                  "children": [
+                    {
+                      "id": "Light Novel"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Comic",
+              "children": [
+                {
+                  "id": "Comic Strip"
+                },
+                {
+                  "id": "Manga"
+                },
+                {
+                  "id": "Manhua"
+                },
+                {
+                  "id": "Manhwa"
+                }
+              ]
+            },
+            {
+              "id": "Drama"
+            },
+            {
+              "id": "Installment"
+            },
+            {
+              "id": "Letter"
+            },
+            {
+              "id": "Play"
+            },
+            {
+              "id": "Poem"
+            },
+            {
+              "id": "Quote"
+            },
+            {
+              "id": "Resume"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

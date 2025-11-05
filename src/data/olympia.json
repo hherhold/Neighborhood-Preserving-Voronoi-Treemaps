@@ -1,0 +1,1440 @@
+{
+  "children": [
+    {
+      "name": "Germany",
+      "id": "P0_Germany",
+      "children": [
+        {
+          "name": "SILVER",
+          "id": "P1_SILVER",
+          "children": [
+            {
+              "name": "Skeleton",
+              "id": "P3_Skeleton",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "neighbors": []
+            },
+            {
+              "name": "Biathlon",
+              "id": "P23_Biathlon",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P16_Biathlon",
+                "P17_Biathlon",
+                "P19_Biathlon",
+                "P21_Biathlon",
+                "P22_Biathlon"
+              ]
+            },
+            {
+              "name": "Snowboard",
+              "id": "P26_Snowboard",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P24_Snowboard",
+                "P25_Snowboard",
+                "P27_Snowboard",
+                "P29_Snowboard"
+              ]
+            },
+            {
+              "name": "Nordic_Combined",
+              "id": "P35_Nordic_Combined",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P34_Nordic_Combined",
+                "P36_Nordic_Combined",
+                "P37_Nordic_Combined"
+              ]
+            },
+            {
+              "name": "Ski_Jumping",
+              "id": "P43_Ski_Jumping",
+              "count": 3,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "neighbors": [
+                "P44_Ski_Jumping",
+                "P45_Ski_Jumping",
+                "P46_Ski_Jumping",
+                "P47_Ski_Jumping"
+              ]
+            },
+            {
+              "name": "Luge",
+              "id": "P55_Luge",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P54_Luge",
+                "P56_Luge",
+                "P57_Luge",
+                "P58_Luge"
+              ]
+            },
+            {
+              "name": "Ice_Hockey",
+              "id": "P60_Ice_Hockey",
+              "count": 1,
+              "embeddings": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P59_Ice_Hockey",
+                "P61_Ice_Hockey"
+              ]
+            },
+            {
+              "name": "Bobsleigh",
+              "id": "P67_Bobsleigh",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P65_Bobsleigh",
+                "P66_Bobsleigh",
+                "P68_Bobsleigh"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BRONZE",
+          "id": "P17_BRONZE",
+          "children": [
+            {
+              "name": "Biathlon",
+              "id": "P19_Biathlon",
+              "count": 3,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P16_Biathlon",
+                "P17_Biathlon",
+                "P21_Biathlon",
+                "P22_Biathlon",
+                "P23_Biathlon"
+              ]
+            },
+            {
+              "name": "Snowboard",
+              "id": "P27_Snowboard",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P24_Snowboard",
+                "P25_Snowboard",
+                "P26_Snowboard",
+                "P29_Snowboard"
+              ]
+            },
+            {
+              "name": "Nordic_Combined",
+              "id": "P36_Nordic_Combined",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P34_Nordic_Combined",
+                "P35_Nordic_Combined",
+                "P37_Nordic_Combined"
+              ]
+            },
+            {
+              "name": "Luge",
+              "id": "P58_Luge",
+              "count": 3,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P54_Luge",
+                "P55_Luge",
+                "P56_Luge",
+                "P57_Luge"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GOLD",
+          "id": "P19_GOLD",
+          "children": [
+            {
+              "name": "Biathlon",
+              "id": "P21_Biathlon",
+              "count": 3,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P16_Biathlon",
+                "P17_Biathlon",
+                "P19_Biathlon",
+                "P22_Biathlon",
+                "P23_Biathlon"
+              ]
+            },
+            {
+              "name": "Nordic_Combined",
+              "id": "P34_Nordic_Combined",
+              "count": 3,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P35_Nordic_Combined",
+                "P36_Nordic_Combined",
+                "P37_Nordic_Combined"
+              ]
+            },
+            {
+              "name": "Figure_skating",
+              "id": "P41_Figure_skating",
+              "count": 2,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P40_Figure_skating",
+                "P42_Figure_skating"
+              ]
+            },
+            {
+              "name": "Ski_Jumping",
+              "id": "P46_Ski_Jumping",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "neighbors": [
+                "P43_Ski_Jumping",
+                "P44_Ski_Jumping",
+                "P45_Ski_Jumping",
+                "P47_Ski_Jumping"
+              ]
+            },
+            {
+              "name": "Luge",
+              "id": "P54_Luge",
+              "count": 4,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P55_Luge",
+                "P56_Luge",
+                "P57_Luge",
+                "P58_Luge"
+              ]
+            },
+            {
+              "name": "Bobsleigh",
+              "id": "P65_Bobsleigh",
+              "count": 5,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P66_Bobsleigh",
+                "P67_Bobsleigh",
+                "P68_Bobsleigh"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Canada",
+      "id": "P3_Canada",
+      "children": [
+        {
+          "name": "GOLD",
+          "id": "P11_GOLD",
+          "children": [
+            {
+              "name": "Speed_skating",
+              "id": "P13_Speed_skating",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P6_Speed_skating",
+                "P9_Speed_skating",
+                "P11_Speed_skating",
+                "P15_Speed_skating"
+              ]
+            },
+            {
+              "name": "Snowboard",
+              "id": "P24_Snowboard",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P25_Snowboard",
+                "P26_Snowboard",
+                "P27_Snowboard",
+                "P29_Snowboard"
+              ]
+            },
+            {
+              "name": "Freestyle_Skiing",
+              "id": "P31_Freestyle_Skiing",
+              "count": 4,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P30_Freestyle_Skiing",
+                "P32_Freestyle_Skiing",
+                "P33_Freestyle_Skiing"
+              ]
+            },
+            {
+              "name": "Curling",
+              "id": "P38_Curling",
+              "count": 2,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P39_Curling"
+              ]
+            },
+            {
+              "name": "Figure_skating",
+              "id": "P40_Figure_skating",
+              "count": 3,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P41_Figure_skating",
+                "P42_Figure_skating"
+              ]
+            },
+            {
+              "name": "Short Track",
+              "id": "P50_Short_Track",
+              "count": 1,
+              "embeddings": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P48_Short_Track",
+                "P49_Short_Track"
+              ]
+            },
+            {
+              "name": "Bobsleigh",
+              "id": "P68_Bobsleigh",
+              "count": 2,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P65_Bobsleigh",
+                "P66_Bobsleigh",
+                "P67_Bobsleigh"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BRONZE",
+          "id": "P27_BRONZE",
+          "children": [
+            {
+              "name": "Snowboard",
+              "id": "P29_Snowboard",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P24_Snowboard",
+                "P25_Snowboard",
+                "P26_Snowboard",
+                "P27_Snowboard"
+              ]
+            },
+            {
+              "name": "Freestyle_Skiing",
+              "id": "P33_Freestyle_Skiing",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P30_Freestyle_Skiing",
+                "P31_Freestyle_Skiing",
+                "P32_Freestyle_Skiing"
+              ]
+            },
+            {
+              "name": "Figure_skating",
+              "id": "P42_Figure_skating",
+              "count": 3,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P40_Figure_skating",
+                "P41_Figure_skating"
+              ]
+            },
+            {
+              "name": "Short Track",
+              "id": "P49_Short_Track",
+              "count": 3,
+              "embeddings": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P48_Short_Track",
+                "P50_Short_Track"
+              ]
+            },
+            {
+              "name": "Luge",
+              "id": "P56_Luge",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P54_Luge",
+                "P55_Luge",
+                "P57_Luge",
+                "P58_Luge"
+              ]
+            },
+            {
+              "name": "Ice_Hockey",
+              "id": "P61_Ice_Hockey",
+              "count": 1,
+              "embeddings": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P59_Ice_Hockey",
+                "P60_Ice_Hockey"
+              ]
+            },
+            {
+              "name": "Bobsleigh",
+              "id": "P66_Bobsleigh",
+              "count": 2,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P65_Bobsleigh",
+                "P67_Bobsleigh",
+                "P68_Bobsleigh"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Norway",
+      "id": "P6_Norway",
+      "children": [
+        {
+          "name": "BRONZE",
+          "id": "P7_BRONZE",
+          "children": [
+            {
+              "name": "Speed_skating",
+              "id": "P9_Speed_skating",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P6_Speed_skating",
+                "P11_Speed_skating",
+                "P13_Speed_skating",
+                "P15_Speed_skating"
+              ]
+            },
+            {
+              "name": "Biathlon",
+              "id": "P22_Biathlon",
+              "count": 2,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P16_Biathlon",
+                "P17_Biathlon",
+                "P19_Biathlon",
+                "P21_Biathlon",
+                "P23_Biathlon"
+              ]
+            },
+            {
+              "name": "Curling",
+              "id": "P39_Curling",
+              "count": 2,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P38_Curling"
+              ]
+            },
+            {
+              "name": "Ski_Jumping",
+              "id": "P44_Ski_Jumping",
+              "count": 2,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "neighbors": [
+                "P43_Ski_Jumping",
+                "P45_Ski_Jumping",
+                "P46_Ski_Jumping",
+                "P47_Ski_Jumping"
+              ]
+            },
+            {
+              "name": "Alpine_Skiing",
+              "id": "P52_Alpine_Skiing",
+              "count": 2,
+              "embeddings": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P51_Alpine_Skiing",
+                "P53_Alpine_Skiing"
+              ]
+            },
+            {
+              "name": "Cross_Country_Skiing",
+              "id": "P64_Cross_Country_Skiing",
+              "count": 4,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P62_Cross_Country_Skiing",
+                "P63_Cross_Country_Skiing"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GOLD",
+          "id": "P9_GOLD",
+          "children": [
+            {
+              "name": "Speed_skating",
+              "id": "P11_Speed_skating",
+              "count": 2,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P6_Speed_skating",
+                "P9_Speed_skating",
+                "P13_Speed_skating",
+                "P15_Speed_skating"
+              ]
+            },
+            {
+              "name": "Biathlon",
+              "id": "P17_Biathlon",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P16_Biathlon",
+                "P19_Biathlon",
+                "P21_Biathlon",
+                "P22_Biathlon",
+                "P23_Biathlon"
+              ]
+            },
+            {
+              "name": "Freestyle_Skiing",
+              "id": "P32_Freestyle_Skiing",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P30_Freestyle_Skiing",
+                "P31_Freestyle_Skiing",
+                "P33_Freestyle_Skiing"
+              ]
+            },
+            {
+              "name": "Ski_Jumping",
+              "id": "P45_Ski_Jumping",
+              "count": 2,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "neighbors": [
+                "P43_Ski_Jumping",
+                "P44_Ski_Jumping",
+                "P46_Ski_Jumping",
+                "P47_Ski_Jumping"
+              ]
+            },
+            {
+              "name": "Alpine_Skiing",
+              "id": "P53_Alpine_Skiing",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P51_Alpine_Skiing",
+                "P52_Alpine_Skiing"
+              ]
+            },
+            {
+              "name": "Cross_Country_Skiing",
+              "id": "P62_Cross_Country_Skiing",
+              "count": 8,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P63_Cross_Country_Skiing",
+                "P64_Cross_Country_Skiing"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SILVER",
+          "id": "P13_SILVER",
+          "children": [
+            {
+              "name": "Speed_skating",
+              "id": "P15_Speed_skating",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P6_Speed_skating",
+                "P9_Speed_skating",
+                "P11_Speed_skating",
+                "P13_Speed_skating"
+              ]
+            },
+            {
+              "name": "Biathlon",
+              "id": "P16_Biathlon",
+              "count": 3,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P17_Biathlon",
+                "P19_Biathlon",
+                "P21_Biathlon",
+                "P22_Biathlon",
+                "P23_Biathlon"
+              ]
+            },
+            {
+              "name": "Nordic_Combined",
+              "id": "P37_Nordic_Combined",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P34_Nordic_Combined",
+                "P35_Nordic_Combined",
+                "P36_Nordic_Combined"
+              ]
+            },
+            {
+              "name": "Ski_Jumping",
+              "id": "P47_Ski_Jumping",
+              "count": 1,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "neighbors": [
+                "P43_Ski_Jumping",
+                "P44_Ski_Jumping",
+                "P45_Ski_Jumping",
+                "P46_Ski_Jumping"
+              ]
+            },
+            {
+              "name": "Alpine_Skiing",
+              "id": "P51_Alpine_Skiing",
+              "count": 4,
+              "embeddings": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P52_Alpine_Skiing",
+                "P53_Alpine_Skiing"
+              ]
+            },
+            {
+              "name": "Cross_Country_Skiing",
+              "id": "P63_Cross_Country_Skiing",
+              "count": 4,
+              "embeddings": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "neighbors": [
+                "P62_Cross_Country_Skiing",
+                "P64_Cross_Country_Skiing"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "id": "root",
+  "similarityMeasure": "jaccard",
+  "useInternalEmbeddings": true,
+  "initializeWithPrecomputedPositions": false,
+  "weightAttribute": "none",
+  "useNeighborLeafs": true,
+  "centroid": [
+    [
+      0.0,
+      0.0
+    ]
+  ]
+}
