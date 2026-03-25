@@ -202,6 +202,7 @@ export const showIcons = writable(true);
 export const showmissingLinks = writable(false);
 export const showSimilarityConstraints = writable(false);
 export const showVectors = writable(false);
+export const useCircleShape = writable(false);
 ///reset store
 export const resetStore = function () {
     resetGeneralStore();

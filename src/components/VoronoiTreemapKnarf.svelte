@@ -42,7 +42,7 @@
     import {apply, concat, matrix, mean} from 'mathjs'
     import * as d3 from "d3";
     import DataTable, {Body, Cell, Head, Row} from "@smui/data-table";
-    import VoronoiMapQueueBaseLine from "./VoronoiMapQueueBaseLine.svelte";
+    import VoronoiMapQueueBaseLine from "./VoronoiMapQueueBaseline.svelte";
 
     let width = window.innerWidth / 5;
     visualizationWidth.set(window.innerWidth / 5)

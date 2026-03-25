@@ -290,6 +290,21 @@
         return missingConnection
     }
 
+    function exportSVG() {
+        const svgEl = document.getElementById('final');
+        const serializer = new XMLSerializer();
+        const svgStr = serializer.serializeToString(svgEl);
+        const blob = new Blob([svgStr], { type: 'image/svg+xml;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'voronoi_treemap.svg';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
     function hover(polygon) {
         hoveredPolygon = polygon.polygon.site.id
         let missingLinks = hasUnlinkedContraints(polygon)
@@ -402,5 +417,9 @@
         {/if}
     {/each}
 </div>
+<button
+    on:click={exportSVG}
+    class="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 active:bg-blue-800 text-sm font-medium"
+>Export SVG</button>
 
 

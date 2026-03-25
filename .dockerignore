@@ -1,0 +1,7 @@
+node_modules
+dist
+.git
+.gitignore
+*.md
+modules/d3-voronoi-map/node_modules
+modules/d3-weighted-voronoi/node_modules

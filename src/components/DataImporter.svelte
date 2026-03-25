@@ -15,6 +15,7 @@
         showNames,
         showSimilarityConstraints,
         showVectors,
+        useCircleShape,
         simAttribute,
         similarityMeasure,
         tabMultiplier,
