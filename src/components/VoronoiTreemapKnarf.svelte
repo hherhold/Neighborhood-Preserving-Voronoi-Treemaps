@@ -43,6 +43,7 @@
     import * as d3 from "d3";
     import DataTable, {Body, Cell, Head, Row} from "@smui/data-table";
     import VoronoiMapQueueBaseLine from "./VoronoiMapQueueBaseline.svelte";
+    import SphericalVoronoi from "./SphericalVoronoi.svelte";
 
     let width = window.innerWidth / 5;
     visualizationWidth.set(window.innerWidth / 5)
@@ -455,6 +456,17 @@
         <h2 class="h2 cols-start-2 py-6">Final Voronoi Treemap Visualization</h2>
         {#if $queueGroupFinished.every(d => d)}
             <FinalTreeMap height="{height}" width="{width}"></FinalTreeMap>
+        {/if}
+    </div>
+    <div class="col-span-6">
+        <h2 class="h2 py-6">Spherical Voronoi Tessellation</h2>
+        <p class="text-sm text-gray-500 mb-2">
+            Native spherical Voronoi tessellation using the leaf-node positions from the
+            flat layout mapped to longitude/latitude.  Neighbourhood structure from the
+            2D optimisation is preserved on the sphere surface.
+        </p>
+        {#if $queueGroupFinished.every(d => d)}
+            <SphericalVoronoi height="{height}" width="{height}"></SphericalVoronoi>
         {/if}
     </div>
     {#each $queueGrouped as voronoiParents, i}
