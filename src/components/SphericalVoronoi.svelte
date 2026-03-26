@@ -138,7 +138,7 @@
     function formatDec(latDeg) {
         // Explicit sign, padded to match the +/-XX.XXXXXXX column width.
         const sign = latDeg >= 0 ? '+' : '-';
-        return sign + Math.abs(latDeg).toFixed(7).padStart(10, ' ');
+        return (sign + Math.abs(latDeg).toFixed(7)).padStart(11, ' ');
     }
 
     function exportConstellationLines() {
