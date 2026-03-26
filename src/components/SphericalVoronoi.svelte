@@ -114,6 +114,66 @@
         return node.data?.name ?? node.data?.id ?? id;
     }
 
+    // ── Constellation-lines export ─────────────────────────────────────────
+    // Produces a file matching the format of bound_20.dat used by OpenSpace's
+    // RenderableConstellationLines.  Each Voronoi cell boundary is output as
+    // an ordered sequence of vertices in RA (decimal hours) / Dec (degrees)
+    // so that OpenSpace renders them as GL_LINE_LOOPs.
+    //
+    // Format per line:
+    //   {RA:10.7f} {Dec:+11.7f} {IDENTIFIER}  I
+    // where:
+    //   RA  = longitude converted to right ascension in decimal hours (÷15)
+    //   Dec = latitude in degrees (explicit + or - sign)
+    //   IDENTIFIER = node name (spaces replaced with underscores)
+    //   I   = all vertices are interior (connected) — GL_LINE_LOOP closes itself
+
+    function formatRA(lonDeg) {
+        // Convert longitude (degrees, −180..+180 from d3-geo-voronoi) to
+        // right ascension hours (0..24).
+        const ra = (((lonDeg % 360) + 360) % 360) / 15;
+        return ra.toFixed(7).padStart(10, ' ');
+    }
+
+    function formatDec(latDeg) {
+        // Explicit sign, padded to match the +/-XX.XXXXXXX column width.
+        const sign = latDeg >= 0 ? '+' : '-';
+        return sign + Math.abs(latDeg).toFixed(7).padStart(10, ' ');
+    }
+
+    function exportConstellationLines() {
+        if (polygonFeatures.length === 0) return;
+
+        const lines = [];
+        for (const feature of polygonFeatures) {
+            const name = (feature.properties?.site?.properties?.name
+                       ?? feature.properties?.site?.properties?.id
+                       ?? 'unknown')
+                .replace(/\s+/g, '_');  // identifiers must not contain spaces
+
+            // GeoJSON polygon exterior ring — coordinates are [lon, lat].
+            // The ring is closed (first === last), so we drop the final duplicate.
+            const ring = feature.geometry?.coordinates?.[0];
+            if (!ring || ring.length < 2) continue;
+            const verts = ring.slice(0, ring.length - 1); // drop closing repeat
+
+            for (const [lon, lat] of verts) {
+                lines.push(`${formatRA(lon)} ${formatDec(lat)} ${name}  I`);
+            }
+        }
+
+        const content = lines.join('\n') + '\n';
+        const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+        const url  = URL.createObjectURL(blob);
+        const a    = document.createElement('a');
+        a.href     = url;
+        a.download = 'voronoi_neighborhoods.dat';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
     // ── Drag-to-rotate mouse handlers ────────────────────────────────────────
     function onMouseDown(e) {
         dragging  = true;
@@ -222,5 +282,12 @@
         <path d={spherePath} fill="none" stroke="#556" stroke-width="1.5" />
     </svg>
 
-    <p class="text-sm text-gray-400 mt-1">Click and drag to rotate the globe.</p>
+    <div class="mt-2 flex gap-2 items-center">
+        <p class="text-sm text-gray-400">Click and drag to rotate the globe.</p>
+        <button
+            on:click={exportConstellationLines}
+            disabled={polygonFeatures.length === 0}
+            class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 active:bg-green-800 text-sm font-medium disabled:opacity-40 disabled:cursor-not-allowed"
+        >Export Constellation Lines</button>
+    </div>
 </div>
