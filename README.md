@@ -7,10 +7,10 @@ The goal of the technique is to preserve existing similarities within the data a
 In this repository, you will find a link to the current, preliminary tool and a preliminary version of the code. 
 A more polished version will be released upon publication.  
 
-# Online Tool
-We are hosting a preliminary version of the tool at [https://voronoitreemap.de](https://voronoitreemap.de).
-The tool has only been tested on a 4k monitor with the Chrome browser.
-We plan to test for other browsers and smaller resolutions in the future.
+## Spherical Voronoi Tesselation
+
+This fork contains a branch (spherical-voronoi-tesselation) for use with a project at the American Museum of Natural History.
+It is highly tailored for this project and is unlikely to be useful for other purposes. 
 
 # Running with Docker
 
