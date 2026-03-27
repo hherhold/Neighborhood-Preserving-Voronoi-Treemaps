@@ -174,6 +174,98 @@
         URL.revokeObjectURL(url);
     }
 
+    // ── PLY polygon export (one file per neighborhood) ──────────────────────
+    // Each polygon's vertices are converted from (lon, lat) to unit-sphere
+    // Cartesian coordinates (x, y, z) and written as an ASCII PLY file.
+    // The File System Access API (showDirectoryPicker) is used so the user
+    // can choose a target directory; all 52 files are written in one pass.
+
+    function lonLatToXYZ(lon, lat) {
+        const lonRad = (lon * Math.PI) / 180;
+        const latRad = (lat * Math.PI) / 180;
+        return [
+            Math.cos(latRad) * Math.cos(lonRad),
+            Math.cos(latRad) * Math.sin(lonRad),
+            Math.sin(latRad)
+        ];
+    }
+
+    function buildPLY(name, ring) {
+        // ring is a closed GeoJSON exterior ring — drop the repeated last vertex
+        const verts = ring.slice(0, ring.length - 1);
+        const xyz   = verts.map(([lon, lat]) => lonLatToXYZ(lon, lat));
+        const n     = xyz.length;
+        const lines = [
+            'ply',
+            'format ascii 1.0',
+            `comment Voronoi neighborhood: ${name}`,
+            `element vertex ${n}`,
+            'property float x',
+            'property float y',
+            'property float z',
+            'element face 1',
+            'property list uchar int vertex_indices',
+            'end_header',
+            ...xyz.map(([x, y, z]) => `${x.toFixed(8)} ${y.toFixed(8)} ${z.toFixed(8)}`),
+            `${n} ${Array.from({ length: n }, (_, i) => i).join(' ')}`
+        ];
+        return lines.join('\n') + '\n';
+    }
+
+    async function exportPLYPolygons() {
+        if (polygonFeatures.length === 0) return;
+
+        if (!window.showDirectoryPicker) {
+            alert(
+                'Your browser does not support the File System Access API.\n' +
+                'Please use Chrome or Edge to use the directory-picker export.'
+            );
+            return;
+        }
+
+        let dirHandle;
+        try {
+            dirHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
+        } catch (err) {
+            if (err.name === 'AbortError') return;   // user cancelled
+            console.error('Directory picker error:', err);
+            return;
+        }
+
+        let count = 0;
+        const errors = [];
+        for (const feature of polygonFeatures) {
+            const name = (
+                feature.properties?.site?.properties?.name ??
+                feature.properties?.site?.properties?.id ??
+                'unknown'
+            );
+            // Strip characters that are invalid in file names
+            const safeName = name.replace(/[/\\?%*:|"<>]/g, '_');
+
+            const ring = feature.geometry?.coordinates?.[0];
+            if (!ring || ring.length < 3) continue;
+
+            const content = buildPLY(name, ring);
+            try {
+                const fh  = await dirHandle.getFileHandle(`${safeName}.ply`, { create: true });
+                const writable = await fh.createWritable();
+                await writable.write(content);
+                await writable.close();
+                count++;
+            } catch (err) {
+                console.error(`Failed to write ${safeName}.ply:`, err);
+                errors.push(safeName);
+            }
+        }
+
+        if (errors.length === 0) {
+            alert(`Exported ${count} PLY file(s) successfully.`);
+        } else {
+            alert(`Exported ${count} PLY file(s). Failed: ${errors.join(', ')}`);
+        }
+    }
+
     // ── Drag-to-rotate mouse handlers ────────────────────────────────────────
     function onMouseDown(e) {
         dragging  = true;
@@ -289,5 +381,10 @@
             disabled={polygonFeatures.length === 0}
             class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 active:bg-green-800 text-sm font-medium disabled:opacity-40 disabled:cursor-not-allowed"
         >Export Constellation Lines</button>
+        <button
+            on:click={exportPLYPolygons}
+            disabled={polygonFeatures.length === 0}
+            class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 active:bg-blue-800 text-sm font-medium disabled:opacity-40 disabled:cursor-not-allowed"
+        >Export PLY Polygons</button>
     </div>
 </div>
